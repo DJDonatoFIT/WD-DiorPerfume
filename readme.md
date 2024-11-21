@@ -60,10 +60,10 @@
 Description of the project in details.
 
 Guiding Question:
-- What is the project
-- Whats the purpose
-- What are key components
-- What technology used and how it is used
+- What is the project - This DIOR website is the Final Project for Web Design. We are tasked to do a website that follows the theme assigned to our group.
+- Whats the purpose - The purpose of this project is to exhibit all the learnings from the very first module up to the last module. In short, culmination of the whole course.
+- What are key components - MultiPage Website/Single Page Website
+- What technology used and how it is used - In this project, it used HTML, CSS, and JavaScript.
 
 ### Key Components
 <!-- TODO: List of Key Components -->
@@ -117,4 +117,4 @@ WD-ProjectName
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+| Dior | Thiss is the reference I used to create my web design |https://www.dior.com/en_int|
