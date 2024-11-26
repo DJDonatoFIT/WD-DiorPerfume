@@ -6,7 +6,7 @@
 <div align="center">
   <a href="https://github.com/zyx-0314/">
   <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="./assets/img/LOGO.png" alt="Nyebe" width="130" height="100">
+    <img src="./assets/img/LOGO.png" alt="Dior" width="130" height="100">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
   <h3 align="center">DIOR</h3>
@@ -117,4 +117,4 @@ WD-ProjectName
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Dior | Thiss is the reference I used to create my web design |https://www.dior.com/en_int|
+| Dior | This is the reference I used to create my web design |https://www.dior.com/en_int|
