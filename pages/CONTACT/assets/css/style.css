@@ -1,0 +1,196 @@
+/* GENERAL ADJUSTMENT */
+body {
+  background-image: url('/pages/CONTACT/assets/img/marble.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+  margin: 0;
+  padding: 10;
+}
+
+/* NAVBAR */
+.navbar {
+  background-color: #6b4f4f;
+  padding: 5px 2;
+}
+
+.navbar .navbar-brand {
+  color: black;
+  font-size: 1.2rem;
+  margin-left: 10;
+  display: flex;
+}
+
+.navbar .nav-link {
+  color: black;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+.navbar .nav-link:hover, .navbar .nav-item.active .nav-link {
+  color: #f0e6e6;
+  border-bottom: 1px solid #fff;
+}
+/* Hero Section (Optional for Design Continuity) */
+.hero {
+  background-color: #000;
+  color: #000000;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+/* CONTACT */
+.contact-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 185px 170px;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+/* CAROUSEL */
+.carousel-container {
+  margin-top: 100%;
+  flex: 2 2 60%;
+  max-width: 180%;
+  padding: 10px;
+}
+
+.carousel img {
+  margin-top: 20px;
+  border-radius: 10px;
+  width: 100%;
+  height: auto;
+  margin-bottom: 40px;
+}
+
+.carousel-caption {
+  text-align: center;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+/* FORM */
+.form-container {
+  flex: 1 1 45%;
+  max-width: 48%;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.form-container h2 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.form-container label {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.form-container input,
+.form-container textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-container textarea {
+  resize: none;
+  height: 100px;
+}
+
+.form-container button {
+  width: 100%;
+  background-color: #000;
+  color: #fff;
+  font-size: 1rem;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form-container button:hover {
+  background-color: #444;
+}
+
+/* SOCIAL MEDIA */
+.social-media {
+  text-align: center;
+  margin-top: 10px;
+  padding: 10px;
+  background-color: rgba(231, 188, 89, 0.8);
+  color: #fff;
+  border-radius: 5px;
+}
+
+.social-media p {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.social-icon img {
+  width: 40px;
+  height: 40px;
+  transition: transform 0.3s ease;
+}
+
+.social-icon img:hover {
+  transform: scale(1.1);
+}
+
+
+/* Footer */
+footer {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 30px;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+  .contact-section {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .carousel-container,
+  .form-container {
+    max-width: 90%;
+    flex: 1 1 90%;
+  }
+
+.social-media{
+  font-size: 0.9rem;
+}
+}

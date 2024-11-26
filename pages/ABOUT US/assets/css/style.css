@@ -1,0 +1,122 @@
+/* GENERAL ADJUSTMENTS */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+  margin: 0;
+  padding: 10;
+}
+
+/* NAVBAR */
+.navbar {
+  background-color: #6b4f4f;
+  padding: 5px 2;
+  display: inline-block;
+}
+
+.navbar .navbar-brand {
+  color: black;
+  font-size: 1.2rem;
+  margin-left: 10;
+  display: flex;
+}
+
+.navbar .nav-link {
+  color: black;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+.navbar .nav-link:hover, .navbar .nav-item.active .nav-link {
+  color: #f0e6e6;
+  border-bottom: 1px solid #fff;
+}
+/* HERO */
+
+.hero-section {
+  background: url('/pages/ABOUT US/assets/img/HISTORY2.jpg') no-repeat center center/cover;
+  padding: 250px 0;
+  background-attachment: fixed;
+}
+.hero-section h1{
+  font-size: 3rem;
+  font-weight: bold;
+}
+.hero-section p{
+  font-size: 1.5rem;
+  margin-top: 10px;
+}
+
+/* CONTENT */
+.about-content h2{
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.about-content p{
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+/* MISSION */
+.mission-section{
+  background-color: #f8f9fa;
+}
+.mission-section h2{
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.mission-section p{
+  font-size: 1.2rem;
+  font-style: italic;
+  color: #555;
+}
+  /* ABOUT */
+  .about-container {
+    width: 80%;
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .about-container h1 {
+    color: #6b4f4f;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .about-container h2 {
+    color: #6b4f4f;
+    font-size: 1.8rem;
+    margin-top: 30px;
+    margin-bottom: 15px;
+  }
+  
+  .about-container p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  .about-container ul {
+    text-align: left;
+    list-style-type: disc;
+    margin-left: 30px;
+    color: #555;
+  }
+  
+  .about-container li {
+    margin-bottom: 10px;
+    font-size: 1rem;
+  }
+  
+  /* FOOTER */
+  footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #343a40;
+    color: #fff;
+    margin-top: 0px;
+  }

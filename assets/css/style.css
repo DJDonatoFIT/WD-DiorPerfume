@@ -1,28 +1,82 @@
-/* GENERAL */
+/* GENERAL ADJUSTMENTS */
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    line-height: 1.6;
-    background-color: #f8f9fa;
-    color: #333;
-}
-
-.navbar {
-    padding: 1rem;
-}
-
-.hero {
-    height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 10;
+  }
+  
+  /* NAVBAR */
+  .navbar {
+    background-color: #6b4f4f;
+    padding: 5px 2;
+  }
+  
+  .navbar .navbar-brand {
+    color: black;
+    font-size: 1.2rem;
+    margin-left: 10;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    color: rgb(0, 0, 0);
-    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
-    background-size: cover;
-    background-position: center;
+  }
+  
+  .navbar .nav-link {
+    color: black;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar .nav-link:hover, .navbar .nav-item.active .nav-link {
+    color: #f0e6e6;
+    border-bottom: 1px solid #fff;
+  }
+/* HERO */
+.hero {
+    position: relative;
+    width: 100%;
+    height: 90vh;
+    overflow: hidden;
 }
 
-.hero h1{
-    font-size: 3rem;
+.hero-video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.hero-overlay {
+    position: absolute;
+    top: 21.5%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    text-align: center;
+    padding: 30px;
+    border-radius: 50px;
+
+}
+.hero-overlay h1{
+    font-size: 6rem;
+    font-weight: bold;
+    margin-bottom: 3px;
+    color: #fff;
+    text-shadow: 9px 4px 15px #000;
+}
+
+.hero-overlay p {
+    color: #fff;
+    text-shadow: 9px 4px 20px #000;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.hero-overlay .btn{
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.hero-overlay .btn:hover{
+    background-color: #444;
 }
 
 .container {
@@ -41,7 +95,7 @@ footer p{
     margin: 0;
 }
 
-/* Cards For Product */
+/* CARDS */
 .card{
     border: none;
     transition: transform 0.3s ease;
@@ -60,7 +114,7 @@ footer p{
     color: #6c757d;
 }
 
-/* Buttons */
+/* BUTTON */
 .btn-primary{
     background-color: #007bff;
     border-color: #007bff;
@@ -69,4 +123,9 @@ footer p{
 .btn-primary:hover {
     background-color: #0056b3;
     border-color: #0056b3;
+}
+@media (max-width: 768px) {
+    .hero-overlay h1 {
+      font-size: 2rem;
+    }
 }
