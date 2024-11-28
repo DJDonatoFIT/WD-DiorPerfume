@@ -22,6 +22,8 @@
 <!-- TODO: Change the WD-Template-Project into the same name of your folder -->
 ![](https://visit-counter.vercel.app/counter.png?page=DJDonatoFIT/WD-DiorPerfume)
 
+[![wakatime](https://wakatime.com/badge/user/c02a8296-0bda-4436-9ba3-7ef9efdefbdd/project/5be05323-a4e6-4b6d-ad23-6ea80c11cad6.svg)](https://wakatime.com/badge/user/c02a8296-0bda-4436-9ba3-7ef9efdefbdd/project/5be05323-a4e6-4b6d-ad23-6ea80c11cad6)
+
 ---
 
 <br />
