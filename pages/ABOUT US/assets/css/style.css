@@ -32,7 +32,7 @@ body {
 /* HERO */
 
 .hero-section {
-  background: url('/pages/ABOUT US/assets/img/HISTORY2.jpg') no-repeat center center/cover;
+  background: url('../img/HISTORY2.jpg') no-repeat center center/cover;
   padding: 250px 0;
   background-attachment: fixed;
 }
